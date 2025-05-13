@@ -112,7 +112,7 @@ fun HomeScreen(
 private fun HomeBody(
     itemList: List<Item> = homeUiState.itemList,
     onItemClick: (Int) -> navigateToItemUpdate,
-    modifier: Modifier = modifier.padding(innerPadding),
+    modifier: Modifier = Modifier,
     contentPadding: PaddingValues = PaddingValues(0.dp),
 ) {
     Column(
